@@ -64,6 +64,7 @@ a {
 
 .rectangle {
 	width: auto;
+	min-width: 370px;
 	height: auto;
 	padding: 20px;
     border-radius: 50px;
