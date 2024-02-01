@@ -1,0 +1,358 @@
+
+body {
+	font-family: 'Luckiest Guy', cursive;
+	margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgba(235, 89, 90, 1) 0%, rgba(246, 205, 71, 1) 100%);
+}
+
+.container {
+	width: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titre {
+	max-width: 300px;
+	font-size: 5vh;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	color: #f6cd47;
+}
+
+.titre2 {
+	font-size: 3vh;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	color: #f6cd47;
+}
+
+
+.bouton {
+	width: auto;
+	height: 100px;
+	margin: 20px;
+	font-size: 30px;
+	padding-top: 5px;
+	background-color: white;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+a {
+	text-decoration: none;
+	color: #eb595a;
+}
+
+.credit {
+	color: #eb595a;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 150px;
+}
+
+.rectangle {
+	width: auto;
+	height: auto;
+	padding: 20px;
+    border-radius: 50px;
+    font-size: 20px;
+   	background-color: white;
+	text-align: center;
+	justify-content: center;
+}
+
+.annuler {
+	width: 150px;
+	font-size: 20px;
+	font-family: 'Luckiest Guy', cursive;
+	color: #eb595a;
+	height: auto;
+	padding: 10px;
+    border-radius: 50px;
+   	background-color: white;
+	text-align: center;
+	margin-top: 10px;
+	display: table;
+	border-style: none;
+}
+
+.formulaire {
+	width: 350px;
+	height: 70px;
+    border-radius: 50px;
+    padding-top: 4px;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 30px;
+    border-style: none;
+   	background-color: white;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.continuer {
+	background-image: url("../images/fleche.png");
+	background-color: white;
+	width: 80px;
+	height: 50px;
+	border-style: none;
+	border-radius: 50px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 310px;
+	margin-bottom: 25px;
+	margin-top: 10px;
+}
+
+.plus {
+	background-image: url("../images/plus.png");
+	background-color: white;
+	width: 50px;
+	height: 50px;
+	border-style: none;
+	border-radius: 50px;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 10px;
+}
+
+.suppr {
+	background-image: url("../images/plus.png");
+	background-color: white;
+	width: 30px;
+	height: 30px;
+	border-style: none;
+	border-radius: 50px;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 12px;
+}
+
+.textrandom {
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.tours {
+	color: #EB595A;
+	font-size: 30px;
+	margin-top: 50px;
+}
+
+.bandeauHaut {
+	width: 100%;
+	display: flex;
+	flex-direction : row;
+	justify-content: space-around;
+	margin: 25px;
+	margin-bottom: 80px;
+}
+
+.bandeauPseudo {
+	width: 420px;
+	display: flex;
+	flex-direction : row;
+	justify-content: space-around;
+	margin-bottom: 10px;
+}
+
+.bandeauHaut2 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.logoHaut {
+	background-image: url(../images/logojaune.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 120px;
+	height: 120px;
+	text-align: center;
+}
+
+.fermer {
+	background-image: url(../images/croix.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	border-radius: 100px;
+	margin-left: 50px;
+}
+
+.parametre {
+	background-image: url(../images/settings.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	border-radius: 100px;
+	margin-left: 50px;
+}
+
+.txtvote{
+	height: 150px;
+	font-size: 22px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.gage{
+	height: 150px;
+	font-size: 22px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.vote {
+	width: 250px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.dislike {
+	background-image: url("../images/dislike.png");
+	background-color: white;
+	width: 100px;
+	height: 100px;
+	border-style: none;
+	border-radius: 50px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+.like {
+	background-image: url("../images/like.png");
+	background-color: white;
+	width: 100px;
+	height: 100px;
+	border-style: none;
+	border-radius: 50px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+.form-check{
+	margin-top: 20px;
+}
+
+
+/*
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo {
+	background-image: url("../images/logojaune.png");
+	width: 150px;
+	height: 150px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.titre {
+    width: 90%; 
+    max-width: 300px;
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+    color: #f6cd47;
+}
+
+.titre2 {
+    width: 90%;
+    max-width: 420px;
+    font-size: 4vw;
+    text-align: center;
+    margin-bottom: 3vw; 
+    margin-top: 3vw;
+    color: #f6cd47;
+}
+
+.bouton {
+    width: auto; 
+    height: 10vw; 
+    margin: 2vw; 
+    font-size: 3vw; 
+    padding-top: 1vw;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.credit {
+    color: #eb595a;
+    font-size: 3vw; 
+    text-align: center;
+    margin-top: 10vw;
+}
+
+.rectangle {
+    width: 90%; 
+    max-width: 370px;
+    padding: 4vw;
+    border-radius: 10vw; 
+    font-size: 2vw;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.annuler {
+    width: 30vw; 
+    font-size: 2vw;
+    font-family: 'Luckiest Guy', cursive;
+    color: #eb595a;
+    height: auto; 
+    padding: 1vw; 
+    border-radius: 10vw;
+    background-color: white;
+    text-align: center;
+    margin-top: 2vw;
+    display: table;
+    border-style: none;
+}*/
